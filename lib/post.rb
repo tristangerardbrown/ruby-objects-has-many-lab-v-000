@@ -2,29 +2,29 @@ class Post
   attr_accessor :author, :name
 
   @@all = []
-  
+
   def initialize(title)
-    @title = title 
-    @@all << title 
+    @title = title
+    @@all << title
   end
 
-  def all 
+  def all
     @@all
-  end 
+  end
 
-  def self.all 
+  def self.all
     @@all
-  end 
+  end
 
-  def title 
-    @title 
-  end 
+  def title
+    @title
+  end
 
-  def author 
-  end 
+  def author
+  end
 
   def author_name
     self = author.name 
-  end 
-  
+  end
+
 end
